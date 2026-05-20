@@ -17,3 +17,5 @@ IMAGE_INSTALL:append = " util-linux"
 IMAGE_INSTALL:append = " strace"
 IMAGE_INSTALL:append = " dtc"
 IMAGE_INSTALL:append = " trace-cmd"
+
+IMAGE_INSTALL:append = " ip-setup"
