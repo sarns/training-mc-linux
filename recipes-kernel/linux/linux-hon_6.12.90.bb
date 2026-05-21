@@ -18,7 +18,8 @@ KERNEL_GIT = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git"
 SRCREV = "2538fbeff8a94ee2b54eb09d92209e24a1e650d4"
 
 SRC_URI = "${KERNEL_GIT};branch=linux-6.12.y \
-	   file://defconfig \
+	    file://defconfig \
+        file://page-owner.cfg \
 	  "
 
 #SRC_URI:append:dev = " file://dev.cfg \
